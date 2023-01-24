@@ -8,4 +8,4 @@ cd IP-TRACKER
 
 ls
 
-python IP_TRACKER.py
+python3 IP_TRACKER
