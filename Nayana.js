@@ -16,9 +16,11 @@ console.clear();
 
 function startBot(message) {
     (message) ? logger(message, "starting") : "";
+ 
   console.log(chalk.blue('⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n             DEPLOYING MAIN SYSTEM\n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n'));
   logger.loader(`deploying app on port ${chalk.blueBright(PORT)}`);
   app.listen(logger.loader(`app deployed on port ${chalk.blueBright(PORT)}`));
+  console.clear()
   /*const child = spawn("node", ["--trace-warnings", "--async-stack-traces", "Nayanb.js"], {
         cwd: __dirname,
         stdio: "inherit",
@@ -37,7 +39,9 @@ axios.get("https://raw.githubusercontent.com/MR-NAYAN-404/NAYAN-BOT/main/update.
   logger(res['data']['description'], "[ DESCRIPTION ]");
   logger(res['data']['main'], "[ FORK ]");
 });
-  console.log(chalk.blue(`⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n             NAYAN-BOT UPDATE \n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n`));
+
+console.log(chalk.blue("            ┳┓┏┓┓┏┏┓┳┓  ┳┓┏┓┏┳┓\n            ┃┃┣┫┗┫┣┫┃┃━━┣┫┃┃ ┃ \n            ┛┗┛┗┗┛┛┗┛┗  ┻┛┗┛ ┻ "))
+console.log(chalk.blue(`⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n             NAYAN-BOT UPDATE \n⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯\n`));
   
   
 };
