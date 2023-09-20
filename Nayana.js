@@ -37,6 +37,7 @@ axios.get("https://raw.githubusercontent.com/MR-NAYAN-404/NAYAN-BOT/main/update.
   logger(res['data']['name'], "[ NAME ]");
   logger("Version: " + res['data']['version'], "[ VERSION ]");
   logger(res['data']['description'], "[ DESCRIPTION ]");
+  logger(res['data']['new command'], "[ NEW COMMAND ]");
   logger(res['data']['main'], "[ FORK ]");
 });
 
