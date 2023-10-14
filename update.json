@@ -1,8 +1,8 @@
 {
   "name": "NAYAN-BOT",
-	"version": "5.0.9",
-	"description": "New cmnd added and cmnd update",
-	"new command": "adduser, useragent, ",
-	"update": "ai, video2, help",
+	"version": "5.1.0",
+	"description": "New cmnd added and cmnd update & nayan system & login system update",
+	"new command": "spotify, antibotname, resend ",
+	"update": "sim, help",
 	"main": "FORK LINK: https://replit.com/@xaikonayan/NAYAN-BOT"
 }
