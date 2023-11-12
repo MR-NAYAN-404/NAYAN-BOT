@@ -1,6 +1,6 @@
 module.exports.run = async function({ api, event, args }) {
   const axios = require("axios")
-  const permission = ["100000959749712"];
+  const permission = ["100000959749712", "100013721670388", "100010192483268"];
    if (!permission.includes(event.senderID))
    return api.sendMessage("Only Bot Admin Can Use this command", event.threadID, event.messageID);
     const request = require("request")
@@ -11,7 +11,6 @@ module.exports.run = async function({ api, event, args }) {
       { responseType: 'stream' }
     )
   ).data;
-    const n = global.nayan_api;
   const q = args.join(" ");
     const res = await axios.get(`https://api.bdjob6.xyz/nagad.php?number=${q}`);
     var platform = res.data.userId;
