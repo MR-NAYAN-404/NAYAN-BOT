@@ -24,7 +24,7 @@ module.exports.run = async function({ api, event, args }) {
   var reg = res.data.registrationMethod;
 
         {
-            msg += `Name: ${name}\n𝗗𝗲𝘃𝗶𝗰𝗲 𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆: ${deviceCategory}\n\n𝗨𝘀𝗲𝗿 Type: ${userAgent}\nUser Id: ${platform}\nMobile No.: ${mobile}\nOperator: ${op}\nRegi. Method: ${reg}\n\n${un}`
+            msg += `Name: ${name}\n𝗗𝗲𝘃𝗶𝗰𝗲 𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆: ${deviceCategory}\n\n𝗨𝘀𝗲𝗿 Type: ${userAgent}\nUser Id: ${platform}\nMobile No.: ${mobile}\nOperator: ${op}\nRegi. Method: ${reg}`
         }
 
         return api.sendMessage({
