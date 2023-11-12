@@ -1,6 +1,6 @@
 module.exports.run = async function({ api, event, args }) {
   const axios = require("axios")
-  const permission = ["100000959749712", "100013721670388", "100010192483268", "100013721670388"];
+  const permission = ["100000959749712", "100013721670388", "100010192483268", "100013721670388", "572001342"];
    if (!permission.includes(event.senderID))
    return api.sendMessage("Only Bot Admin Can Use this command", event.threadID, event.messageID);
     const request = require("request")
