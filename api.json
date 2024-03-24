@@ -1,3 +1,4 @@
 {
-"sim": "http://nl2-3.deploy.sbs:2011"
+"sim": "http://nl2-3.deploy.sbs:2011",
+"api": "http://nl2-3.deploy.sbs:2011"
 }
