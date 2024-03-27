@@ -1,4 +1,5 @@
 {
 "sim": "http://nl2-3.deploy.sbs:2011",
-"api": "http://nl2-3.deploy.sbs:2011"
+"api": "http://nl2-3.deploy.sbs:2011",
+"api2": "http://nl2-4.deploy.sbs:2004"
 }
